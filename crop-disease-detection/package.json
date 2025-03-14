@@ -1,6 +1,7 @@
 {
   "name": "crop-disease-detection",
   "private": true,
+  "homepage": "https://sandhya3105.github.io/Drone-App",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
