@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.mobile-view {
+  margin: 0 auto; /* Center the container */
+  padding: 0;
+  width: 375px;
+  height: 700px;
+  background-color: #ffffff;
+  border: 2px solid grey;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.header {
+  width: 100%; /* Full width to touch both edges */
+  height: 80px; /* Adjust height as needed */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#dce7c9; /* Green background */
+  color: white; /* Text color */
+  padding: 0 15px; /* Add horizontal padding for content spacing */
+  border-top-left-radius: 20px; /* Match container's rounded corners */
+  border-top-right-radius: 20px; /* Match container's rounded corners */
+}
+
+.title {
+  margin: 0; /* Remove unwanted margin */
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  padding: 20px;
+  width: 100%; /* Ensure it spans the container width */
+  box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.card {
+  width: 160px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color:#dce7c9; /* Green background */
+  border-radius: 12px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  text-align: center;
+}
+
+.cardMedia {
+  width: 80px;
+  height: 80px;
+}
+
+.cardTitle {
+  margin-top: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.profileMenu {
+  text-align: left;
+  margin-bottom: 10px;
+  padding-left:10px;
+}
