@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  root: './crop-disease-detection', // Set the root to the subfolder containing index.html
+  root: './', // Should point to where index.html is located
 });
