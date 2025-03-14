@@ -21,8 +21,8 @@ body {
 
 /* Mobile container */
 .mobile-view {
-  width: 375px; /* Standard mobile width */
-  height: 700px; /* Standard mobile height */
+  width: 375px;
+  height: 700px;
   background-color: #ffffff;
   border: 2px solid grey;
   border-radius: 20px;
