@@ -12,7 +12,7 @@ const clientId = "404835897565-rqs9ho7lg0dfdj8vhbrmn6rqg13te4el.apps.googleuserc
 ReactDOM.createRoot(document.getElementById("root")).render(
   <GoogleOAuthProvider clientId={clientId}>
     <React.StrictMode>
-      <Router>
+      <Router basename="/DRONE-APP">
         <Routes>
           <Route path="/" element={<App />} />
           <Route path="/login" element={<Login />} />
